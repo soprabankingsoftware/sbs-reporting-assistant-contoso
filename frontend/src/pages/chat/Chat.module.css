@@ -2,7 +2,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px
+    gap: 20px;
 }
 
 .chatRoot {
@@ -20,8 +20,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: radial-gradient(108.78% 108.78% at 50.02% 19.78%, #FFFFFF 57.29%, #EEF6FE 100%);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
+    background: radial-gradient(108.78% 108.78% at 50.02% 19.78%, #ffffff 57.29%, #eef6fe 100%);
+    box-shadow:
+        0px 2px 4px rgba(0, 0, 0, 0.14),
+        0px 0px 2px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     overflow-y: auto;
     max-height: calc(100vh - 100px);
@@ -85,9 +87,11 @@
 .chatMessageUserMessage {
     display: flex;
     padding: 20px;
-    background: #EDF5FD;
+    background: #edf5fd;
     border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
+    box-shadow:
+        0px 2px 4px rgba(0, 0, 0, 0.14),
+        0px 0px 2px rgba(0, 0, 0, 0.12);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -109,7 +113,9 @@
 .chatMessageError {
     padding: 20px;
     border-radius: 8px;
-    box-shadow: rgba(182, 52, 67, 1) 1px 1px 2px, rgba(182, 52, 67, 1) 0px 0px 1px;
+    box-shadow:
+        rgba(182, 52, 67, 1) 1px 1px 2px,
+        rgba(182, 52, 67, 1) 0px 0px 1px;
     color: #242424;
     flex: none;
     order: 0;
@@ -154,7 +160,7 @@
     height: 40px;
     left: 7px;
     top: 13px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 4px;
     z-index: 1;
 }
@@ -170,7 +176,7 @@
     height: 40px;
     left: 7px;
     top: 66px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 4px;
     z-index: 1;
 }
@@ -186,7 +192,7 @@
     height: 40px;
     left: 7px;
     top: 66px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 4px;
     z-index: 1;
 }
@@ -202,9 +208,9 @@
     position: absolute;
     width: 161px;
     height: 32px;
-    left: calc(50% - 161px/2 + 25.8px);
+    left: calc(50% - 161px / 2 + 25.8px);
     bottom: 116px;
-    border: 1px solid #D1D1D1;
+    border: 1px solid #d1d1d1;
     border-radius: 16px;
 }
 
@@ -235,8 +241,10 @@
     align-items: flex-start;
     padding: 16px 16px;
     gap: 8px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
+    background: #ffffff;
+    box-shadow:
+        0px 2px 4px rgba(0, 0, 0, 0.14),
+        0px 0px 2px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     flex: auto;
     order: 0;
@@ -269,7 +277,7 @@
 }
 
 .citationPanelDismiss:hover {
-    background-color: #D1D1D1;
+    background-color: #d1d1d1;
     cursor: pointer;
 }
 
@@ -281,7 +289,7 @@
     color: #323130;
     margin-top: 12px;
     margin-bottom: 12px;
-} 
+}
 
 .citationPanelTitle:hover {
     text-decoration: underline;
@@ -298,7 +306,7 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-} 
+}
 
 a {
     padding-left: 5px;
@@ -310,12 +318,12 @@ a {
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
-    color: #115EA3;
+    color: #1540ae;
     flex-direction: row;
     align-items: center;
     padding: 4px 6px;
     gap: 4px;
-    border: 1px solid #D1D1D1;
+    border: 1px solid #d1d1d1;
     border-radius: 4px;
 }
 
